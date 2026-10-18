@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lazada - Mùa thu đông xinh sang</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Lazada - Trang chủ"><img src="img/Logo.png" alt="Lazada"></a>
+    <nav class="main-nav" aria-label="Điều hướng chính">
+      <a href="#top" class="active">Trang chủ</a>
+      <a href="#thuong-hieu">Thương hiệu</a>
+      <a href="#khuyen-mai">Khuyến mại</a>
+      <a href="#lien-he">Liên hệ</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Mở menu" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="khuyen-mai">
+      <a href="#thuong-hieu" aria-label="Khám phá bộ sưu tập mùa thu đông">
+        <img class="content-image hero-image" src="img/banner2.jpg" alt="Mùa thu đông xinh sang, nhân đôi tích điểm và giao nhanh 2 giờ">
+      </a>
+    </section>
+
+    <section class="news-list" id="thuong-hieu" aria-label="Tin tức thương hiệu">
+      <article class="news-item">
+        <div class="news-copy">
+          <h1><a href="#vans">Chặng đường phát triển của thương hiệu Vans qua từng thời kỳ</a></h1>
+          <p>Bạn là tín đồ giày Vans nhưng vẫn chưa nắm được những thông tin về lịch sử hình thành và phát triển của thương hiệu? Hãy cùng tìm hiểu qua bài chia sẻ dưới đây...</p>
+          <a class="read-more" href="#vans">ĐỌC THÊM</a>
+        </div>
+        <a class="news-photo" href="#vans" id="vans"><img class="content-image" src="img/vans.jpg" alt="Bộ sưu tập giày Vans"></a>
+      </article>
+
+      <article class="news-item">
+        <div class="news-copy">
+          <h2><a href="#nars">Thương hiệu Nars: Lịch sử hình thành và phát triển qua các năm lịch sử</a></h2>
+          <p>Bạn là tín đồ giày Vans nhưng vẫn chưa nắm được những thông tin về lịch sử hình thành và phát triển của thương hiệu? Hãy cùng tìm hiểu qua bài chia sẻ dưới đây...</p>
+          <a class="read-more" href="#nars">ĐỌC THÊM</a>
+        </div>
+        <a class="news-photo" href="#nars" id="nars"><img class="content-image" src="img/nars.jpg" alt="Sản phẩm trang điểm Nars"></a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="lien-he">
+    <a class="footer-brand" href="#top">LAZADA</a>
+    <form class="email-form" id="emailForm" novalidate>
+      <label class="visually-hidden" for="email">Địa chỉ email</label>
+      <input type="email" id="email" name="email" placeholder="EMAIL" autocomplete="email" aria-describedby="formMessage" required>
+      <button type="submit">GỬI</button>
+      <p class="form-message" id="formMessage" role="status" aria-live="polite"></p>
+    </form>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
